@@ -1,0 +1,47 @@
+# XE1FXT Jose Luis
+
+﻿#--RCS Viernes conecta a las 7:56pm y desconecta a las 21:31pm
+56 19 * * 5 (/home/irlp/scripts/decode 595 > /dev/null 2>&1)
+57 19 * * 5 (/home/irlp/scripts/decode 9208 &>/dev/null 2>&1)
+45 21 * * 5 (/home/irlp/scripts/decode 595 > /dev/null 2>&1)
+46 21 * * 5 (/home/irlp/scripts/decode 9298 &>/dev/null 2>&1)
+
+#--FMRE Domingos conecta a las 8:47am y desconecta a las 11:03am
+58 06 * * 0 (/home/irlp/scripts/decode 595 > /dev/null 2>&1)
+59 06 * * 0 (/home/irlp/scripts/decode 9208 &>/dev/null 2>&1)
+#31 10 * * 0 (/home/irlp/scripts/decode 595 > /dev/null 2>&1)
+#32 10 * * 0 (/home/irlp/scripts/decode 9298 &>/dev/null 2>&1)
+
+#--PRACTICAS RED NACIONAL FMRE JUEVES conecta a las 7:47pm y desconecta a las 23:05pm
+31 19 * * 4 (/home/irlp/scripts/decode 595 > /dev/null 2>&1)
+32 19 * * 4 (/home/irlp/scripts/decode 9208 &>/dev/null 2>&1)
+58 20 * * 4 (/home/irlp/scripts/decode 595 > /dev/null 2>&1)
+59 20 * * 4 (/home/irlp/scripts/decode 9736 &>/dev/null 2>&1)
+10 22 * * 4 (/home/irlp/scripts/decode 595 > /dev/null 2>&1)
+11 22 * * 4 (/home/irlp/scripts/decode 9298 &>/dev/null 2>&1)
+
+#--RED RICARDO SOLANO
+58 19 * * 3 (/home/irlp/scripts/decode 595 > /dev/null 2>&1)
+59 19 * * 3 (/home/irlp/scripts/decode 9208 &>/dev/null 2>&1)
+45 21 * * 3 (/home/irlp/scripts/decode 595 > /dev/null 2>&1)
+45 21 * * 3 (/home/irlp/scripts/decode 9298 &>/dev/null 2>&1)
+
+#--Lunes NET DE LA TECNOLOGIA 6:54pm y desconecta a las 8:14pm
+#58 18 * * 1 (/home/irlp/scripts/decode 595 > /dev/null 2>&1)
+#59 18 * * 1 (/home/irlp/scripts/decode 9101 &>/dev/null 2>&1)
+#15 20 * * 1 (/home/irlp/scripts/decode 595 > /dev/null 2>&1)
+#16 20 * * 1 (/home/irlp/scripts/decode 9208 &>/dev/null 2>&1)
+
+#--conexiones lunes - viernes por la mañana
+01 06 * * 1,2,3,4,5,6 (/home/irlp/scripts/decode 595 > /dev/null 2>&1)
+02 06 * * 1,2,3,4,5,6 (/home/irlp/scripts/decode 9208 &>/dev/null 2>&1)
+46 08 * * 1,2,3,4,5,6 (/home/irlp/scripts/decode 595 > /dev/null 2>&1)
+47 08 * * 1,2,3,4,5,6 (/home/irlp/scripts/decode 9736 &>/dev/null 2>&1)
+46 10 * * 1,2,3,4,5,6 (/home/irlp/scripts/decode 595 > /dev/null 2>&1)
+47 10 * * 1,2,3,4,5,6 (/home/irlp/scripts/decode 9208 &>/dev/null 2>&1)
+#58 13 * * 1,2,3,4,5,6 (/home/irlp/scripts/decode 595 > /dev/null 2>&1)
+#59 13 * * 1,2,3,4,5,6 (/home/irlp/scripts/decode 9298 &>/dev/null 2>&1)
+
+#conexiones lunes y mares al 9298 09:45 pm
+45 21 * * 1,2 (/home/irlp/scripts/decode 595 > /dev/null 2>&1)
+46 21 * * 1,2 (/home/irlp/scripts/decode 9298 &>/dev/null 2>&1)
